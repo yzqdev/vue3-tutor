@@ -1,0 +1,11 @@
+{
+  "name": "vue3server",
+    "script": "yarn",
+    "args": [
+        "start:prod" 
+    ],
+   "error_file":"./log/err.log",
+    "out_file":"./log/out.log",
+    "exec_interpreter": "",
+    "exec_mode": "fork"
+}

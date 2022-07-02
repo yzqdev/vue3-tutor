@@ -1,0 +1,58 @@
+{
+  "name": "vue3-server",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "yarn prebuild&&nest build",
+    "build:ts": "yarn prebuild&&tsup src/main.ts --format esm,cjs",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "nest start",
+    "dev": "cross-env NODE_ENV=dev nest start --watch",
+    "start:debug": "nest start --debug --watch",
+    "start:prod": "cross-env NODE_ENV=prod node dist/main"
+  },
+  "dependencies": {
+    "@nestjs/axios": "^0.0.8",
+    "@nestjs/common": "^8.4.7",
+    "@nestjs/config": "^2.1.0",
+    "@nestjs/core": "^8.4.7",
+    "@nestjs/platform-express": "^8.4.7",
+    "@nestjs/schedule": "^2.0.1",
+    "@nestjs/serve-static": "^2.2.2",
+    "@nestjs/swagger": "^5.2.1",
+    "@nestjs/typeorm": "^8.1.4",
+
+    "cross-env": "^7.0.3",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.5.5",
+    "sqlite3": "^5.0.8",
+    "swagger-ui-express": "^4.4.0",
+    "typeorm": "^0.3.7"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.2.8",
+    "@nestjs/schematics": "^8.0.11",
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.207",
+
+    "@types/cron": "^2.0.0",
+    "@types/express": "^4.17.13",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.0.0",
+    "picocolors": "^1.0.0",
+    "prettier": "^2.7.1",
+    "rollup": "^2.75.7",
+    "ts-loader": "^9.3.1",
+    "ts-node": "^10.8.1",
+    "tsconfig-paths": "^4.0.0",
+    "tsup": "^6.1.2",
+    "typescript": "^4.7.4",
+    "unbuild": "^0.7.4"
+  }
+}
