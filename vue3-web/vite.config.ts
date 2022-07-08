@@ -51,6 +51,11 @@ export default defineConfig({
         target:'http://localhost:5400',
         changeOrigin:true,
        rewrite: (path) => path.replace('', '')
+      },
+      "/bing":{
+        target:'https://api.codelife.cc/bing/list?page=4',
+        changeOrigin:true,
+       rewrite: (path) => path.replace(/^\/bing/, '')
       }
     },
     port: 4700,

@@ -7,7 +7,6 @@ declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     BigTitle: typeof import('./../components/BigTitle.vue')['default']
     Child: typeof import('./../components/Child.vue')['default']
-    Count: typeof import('./../components/Count.vue')['default']
     Css: typeof import('./../components/tutor/tab/Css.vue')['default']
     DogListOne: typeof import('./../components/vuex-demo/dogs/DogListOne.vue')['default']
     DogListTwo: typeof import('./../components/vuex-demo/dogs/DogListTwo.vue')['default']
@@ -46,7 +45,6 @@ declare module '@vue/runtime-core' {
     Swiper: typeof import('./../components/Swiper.vue')['default']
     Tabs: typeof import('./../components/tutor/Tabs.vue')['default']
     TodoTList: typeof import('./../components/tutor/TodoTList.vue')['default']
-    Tricks: typeof import('./../components/Tricks.vue')['default']
     Weather: typeof import('./../components/Weather.vue')['default']
   }
 }

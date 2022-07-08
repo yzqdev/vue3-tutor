@@ -1,0 +1,14 @@
+:authority: api.codelife.cc
+:method: GET
+:path: /bing/list?page=4
+:scheme: https
+accept: application/json, text/plain, */*
+accept-encoding: gzip, deflate, br
+accept-language: zh-CN,zh;q=0.9
+origin: https://go.itab.link
+referer: https://go.itab.link/
+sec-ch-ua: " Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-fetch-dest: empty
+sec-fetch-mode: cors

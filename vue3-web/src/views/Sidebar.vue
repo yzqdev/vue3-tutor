@@ -78,6 +78,7 @@ let defaultMenu = [
       { index: "/usage", name: "Usage", title: "用法" },
       { index: "/title", name: "Markdown", title: "markdown" },
       { index: "/pictures", name: "Pictures", title: "图片" },
+      { index: "/test-api", name: "TestApi", title: "api测试" },
     ],
   },
   {

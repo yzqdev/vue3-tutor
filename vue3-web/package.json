@@ -16,9 +16,9 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/vue-fontawesome": "^3.0.1",
     "@vue/composition-api": "^1.7.0",
-    "@vueuse/core": "^8.7.5",
+    "@vueuse/core": "^8.9.1",
     "axios": "^0.27.2",
-    "element-plus": "^2.2.7",
+    "element-plus": "^2.2.9",
     "lodash": "^4.17.21",
     "lodash.kebabcase": "^4.1.1",
     "mande": "^2.0.2",
@@ -34,16 +34,16 @@
     "vue-router": "4.0.16"
   },
   "devDependencies": {
-    "@types/node": "^18.0.0",
+    "@types/node": "^18.0.3",
     "@types/qs": "^6.9.7",
     "@vitejs/plugin-vue": "^2.3.3",
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
     "prettier": "^2.7.1",
     "sass": "^1.53.0",
-    "tailwindcss": "^3.1.4",
-    "unplugin-auto-import": "^0.9.1",
-    "unplugin-vue-components": "^0.19.1",
-    "vite": "^3.0.0-beta.5"
+    "tailwindcss": "^3.1.5",
+    "unplugin-auto-import": "^0.9.2",
+    "unplugin-vue-components": "^0.19.9",
+    "vite": "^3.0.0-beta.8"
   }
 }

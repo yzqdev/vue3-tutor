@@ -3,6 +3,7 @@ import Usage from "@/views/Usage.vue";
 import NeteaseMusic from "@/views/NeteaseMusic.vue";
 import Pictures from "@/components/Pictures.vue";
 import TestVue from "@/views/Question.vue";
+import  TestApi from '@/views/TestApi.vue'
 import Dogs from "@/views/vuexView/Dogs.vue";
 import Sidebar from "@/views/Sidebar.vue";
 import TutorIndex from "@/views/TutorIndex.vue";
@@ -84,6 +85,10 @@ export default createRouter({
           path: "/test-vue",
           name: "TestVue",
           component: TestVue,
+        },{
+          path: "/test-api",
+          name: "TestApi",
+          component: TestApi,
         },
 
         {
