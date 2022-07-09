@@ -27,6 +27,10 @@ export class CatController {
 
 
     }
+    @Get('mem')
+   async   memoryUsage( ) {
+    return await this.catService.getMemoryServ()
+   }
 
     @Get('cos')
     async getCosApi() {
