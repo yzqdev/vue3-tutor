@@ -88,7 +88,10 @@ let defaultMenu = [
     subs: [{ index: "/vuex/dog", name: "Dogs", title: "dog" }],
   },
 
-  { index: "/tutor", name: "Tutor", title: "教程" },
+  { index: "/tutor", name: "Tutor", title: "教程",subs:[
+      { index: "/vueus", name: "Demo1", title: "demo1" },
+      { index: "/css", name: "Demo2", title: "demo2" }
+    ] },
   { index: "/vue", name: "Vue", title: "教程2" },
   {
     index: "/about",

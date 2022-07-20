@@ -3,11 +3,14 @@
 // Read more: https://github.com/vuejs/core/pull/3399
 import '@vue/runtime-core'
 
+export {}
+
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     BigTitle: typeof import('./../components/BigTitle.vue')['default']
     Child: typeof import('./../components/Child.vue')['default']
     Css: typeof import('./../components/tutor/tab/Css.vue')['default']
+    CssDemo: typeof import('./../components/CssDemo.vue')['default']
     DogListOne: typeof import('./../components/vuex-demo/dogs/DogListOne.vue')['default']
     DogListTwo: typeof import('./../components/vuex-demo/dogs/DogListTwo.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
@@ -48,5 +51,3 @@ declare module '@vue/runtime-core' {
     Weather: typeof import('./../components/Weather.vue')['default']
   }
 }
-
-export {}

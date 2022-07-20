@@ -5,7 +5,9 @@ import Pictures from "@/components/Pictures.vue";
 import TestVue from "@/views/Question.vue";
 import  TestApi from '@/views/TestApi.vue'
 import Dogs from "@/views/vuexView/Dogs.vue";
-import Sidebar from "@/views/Sidebar.vue";
+import Layout from "@/layout/Layout.vue";
+import Demo1 from '@/views/usedemo/demo1.vue'
+import Demo2 from '@/views/usedemo/demo2.vue'
 import TutorIndex from "@/views/TutorIndex.vue";
 import VueTricks from "@/views/VueTricks.vue";
 import {createRouter, createWebHashHistory, createWebHistory} from "vue-router";
@@ -34,7 +36,7 @@ export default createRouter({
 
     {
       path: "/",
-      component: Sidebar,
+      component:Layout,
       children: [
         {
           path: "/home",
@@ -89,6 +91,14 @@ export default createRouter({
           path: "/test-api",
           name: "TestApi",
           component: TestApi,
+        },{
+          path: "/demo1",
+          name: "Demo1",
+          component: Demo1,
+        },{
+          path: "/demo2",
+          name: "Demo2",
+          component: Demo2,
         },
 
         {
