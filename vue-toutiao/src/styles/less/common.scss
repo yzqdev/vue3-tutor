@@ -1,0 +1,17 @@
+@import './function';
+
+.border-half-left {
+     @include border('left')
+}
+.border-half-top {
+    @include border('top')
+}
+.border-half-bottom {
+    @include border('bottom')
+}
+.border-half-right {
+    @include border('right')
+}
+.border-half {
+    @include border(true)
+}

@@ -1,0 +1,48 @@
+.card {
+  position: relative;
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+}
+.card .img {
+  width: 100%;
+  padding-bottom: 100%;
+}
+.card .card-content {
+  position: absolute;
+  width: 90%;
+  height: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 10px 5%;
+  box-sizing: boder-box;
+}
+.card .card-content .desc {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  height: auto;
+  font-size: 16px;
+  line-height: 16px;
+  word-wrap: break-word;
+}
+.card .card-content .card-content-bottom {
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  line-height: 28px;
+}
+.card .card-content .card-content-bottom .who {
+  flex: 1;
+  text-align: left;
+}
+.card .card-content .card-content-bottom .time {
+  flex: 1;
+  text-align: right;
+}

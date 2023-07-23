@@ -1,0 +1,25 @@
+{
+  "name": "vite-vue2-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "script-info": {
+    "dev": "开发环境"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.11.1",
+    "vue": "2.7.14",
+    "vue-router": "3.6.5"
+  }
+}

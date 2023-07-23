@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-elm",
+  "version": "2.0.0",
+  "description": "Nuxt.js project",
+  "author": "[easytuan] <[easytuan@foxmail.com]>",
+  "private": true,
+  "license": "GPL",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate .",
+    "preview": "nuxt preview",
+    "serve": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "js-cookie": "^3.0.5",
+    "js-md5": "^0.7.3",
+    "nuxt": "^3.6.5"
+  },
+  "devDependencies": {
+    "@vant/nuxt": "^1.0.2",
+    "dayjs": "^1.11.9",
+    "sass": "^1.64.1",
+    "sass-loader": "^13.3.2",
+    "unplugin-icons": "^0.16.5",
+    "unplugin-vue-components": "^0.25.1",
+    "vant": "^4.6.2"
+  }
+}

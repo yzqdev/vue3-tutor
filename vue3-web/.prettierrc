@@ -1,0 +1,11 @@
+{
+  "htmlWhitespaceSensitivity": "ignore",
+  "tabWidth": 2,
+  "useTabs": false,
+  "endOfLine": "auto",
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+
+  "insertPragma": false,
+  "printWidth": 200
+}

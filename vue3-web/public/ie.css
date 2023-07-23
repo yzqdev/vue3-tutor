@@ -1,0 +1,123 @@
+@charset "UTF-8";
+.div-to-download-chrome {
+  background-color: #fff2ee;
+  color: black;
+  margin: 35px;
+  font-family: "Microsoft YaHei", sans-serif;
+  padding: 9px 20px;
+  animation: backgroundChange 15s infinite;
+  -moz-animation: backgroundChange 15s infinite; /* Firefox */
+  -webkit-animation: backgroundChange 15s infinite; /* Safari and Chrome */
+  -o-animation: backgroundChange 15s infinite; /* Opera */
+}
+@-ms-keyframes backgroundChange {
+  0% {
+    background-color: red;
+    color: white;
+  }
+  25% {
+    background-color: #2d8cf0;
+    color: red;
+  }
+
+  50% {
+    background-color: yellow;
+    color: red;
+  }
+  75% {
+    background-color: green;
+    color: red;
+  }
+  85% {
+    background-color: purple;
+    color: red;
+  }
+  100% {
+    background-color: #2d8cf0;
+    color: red;
+  }
+}
+@keyframes backgroundChange {
+  0% {
+    background-color: red;
+    color: white;
+  }
+  25% {
+    background-color: #2d8cf0;
+    color: red;
+  }
+  50% {
+    background-color: yellow;
+    color: red;
+  }
+  75% {
+    background-color: green;
+    color: red;
+  }
+  85% {
+    background-color: purple;
+    color: red;
+  }
+  100% {
+    background-color: #2d8cf0;
+    color: red;
+  }
+}
+.span-to-download-chrome {
+  font-size: 30px;
+}
+
+.link-to-download-chrome {
+  margin: 5px 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  line-height: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: 0.3s;
+}
+.link-to-download-chrome:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.link-to-download-chrome:focus,
+.link-to-download-chrome.focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.link-to-download-chrome.disabled {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.link-to-download-chrome:not(:disabled):not(.disabled):active,
+.show > .link-to-download-chrome.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+.link-to-download-chrome:not(:disabled):not(.disabled):active:focus,
+.link-to-download-chrome:not(:disabled):not(.disabled).active:focus,
+.show > .link-to-download-chrome.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+.p-to-download-chrome {
+  font-size: 40px;
+  color: red;
+  animation: backgroundChange 15s infinite;
+  -moz-animation: backgroundChange 15s infinite; /* Firefox */
+  -webkit-animation: backgroundChange 15s infinite; /* Safari and Chrome */
+  -o-animation: backgroundChange 15s infinite; /* Opera */
+}
+
+.to-download-chrome-img {
+  vertical-align: middle;
+  height: 20px;
+}

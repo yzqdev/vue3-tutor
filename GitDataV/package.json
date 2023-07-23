@@ -1,0 +1,32 @@
+{
+  "name": "GitDataV",
+  "version": "2.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "prettier --write src/**/*.{vue,js,ts,css,scss}"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.2.1",
+    "axios": "^1.4.0",
+    "echarts": "^5.4.3",
+    "js-cookie": "^3.0.5",
+    "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
+    "vue-particles": "^1.0.9",
+    "vue-router": "^4.2.4",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.17.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "bootstrap": "^5.3.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.64.1",
+    "typescript": "^5.1.6",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.6"
+  }
+}

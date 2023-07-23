@@ -1,0 +1,22 @@
+{
+  "name": "page-demo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate .",
+    "preview": "nuxt preview",
+    "serve": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "^3.6.5",
+    "unplugin-icons": "^0.16.5",
+    "unplugin-vue-components": "^0.25.1"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@nuxt/ui": "^0.4.1",
+    "element-plus": "latest"
+  }
+}

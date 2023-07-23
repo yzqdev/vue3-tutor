@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="ie.css" />
+  </head>
+  <body>
+    <div class="div-to-download-chrome">
+      <p class="p-to-download-chrome">您正在使用ie浏览器,请使用chrome浏览器(谷歌浏览器)!</p>
+      <div class="span-to-download-chrome">
+        <p>
+          请点击右边的按钮下载谷歌浏览器!
+          <a class="link-to-download-chrome" href="https://www.google.cn/intl/zh-CN/chrome/">
+            谷歌浏览器下载地址
+            <img class="to-download-chrome-img" src="https://www.google.cn/chrome/static/images/chrome-logo.svg" />
+          </a>
+          或
+          <a class="link-to-download-chrome" href="https://dlc2.pconline.com.cn/filedown_51614_12941254/z8fV1FXE/ChromeSetup_32.exe">
+            直链下载
+            <img class="to-download-chrome-img" src="https://www.google.cn/chrome/static/images/chrome-logo.svg" />
+          </a>
+        </p>
+      </div>
+    </div>
+    <script type="text/javascript">
+      window.onload = function isIE() {
+        let downloadChrome =
+          '<div class="div-to-download-chrome">\n' +
+          '        <p class="p-to-download-chrome">\n' +
+          "          您正在使用ie浏览器,请使用chrome浏览器(谷歌浏览器)!\n" +
+          "        </p>\n" +
+          '      <div class="span-to-download-chrome">\n' +
+          "        <p>\n" +
+          "          请点击右边的按钮下载谷歌浏览器!\n" +
+          "          <a\n" +
+          '            class="link-to-download-chrome"\n' +
+          '            href="https://www.google.cn/intl/zh-CN/chrome/"\n' +
+          "            >谷歌浏览器下载地址<img\n" +
+          '              class="to-download-chrome-img"\n' +
+          '              src="https://www.google.cn/chrome/static/images/chrome-logo.svg"\n' +
+          "            /> </a\n" +
+          "          >或\n" +
+          "          <a\n" +
+          '            class="link-to-download-chrome"\n' +
+          '            href="https://dlc2.pconline.com.cn/filedown_51614_12941254/z8fV1FXE/ChromeSetup_32.exe"\n' +
+          "            >直链下载<img\n" +
+          '              class="to-download-chrome-img"\n' +
+          '              src="https://www.google.cn/chrome/static/images/chrome-logo.svg"\n' +
+          "            />\n" +
+          "          </a>\n" +
+          "        </p>\n" +
+          "      </div>\n" +
+          "    </div>";
+
+        if (!!window.ActiveXObject || "ActiveXObject" in window) {
+          document.getElementById("app").innerHTML = downloadChrome;
+          alert("您正在使用ie浏览器,请使用chrome浏览器(谷歌浏览器)!");
+        } else {
+          return false;
+        }
+      };
+    </script>
+  </body>
+</html>
