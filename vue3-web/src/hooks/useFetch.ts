@@ -1,7 +1,7 @@
 // fetch.js
 import { ref, isRef, unref, watchEffect } from "vue";
 
-export function useFetch(url) {
+export function useFetch(url: string) {
   const data = ref(null);
   const error = ref(null);
 
